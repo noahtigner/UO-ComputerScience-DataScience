@@ -1,0 +1,6 @@
+start:
+	ADD   r1,r0,r0[12]    # Load constant 12 to r1
+	ADD   r1,r1,r1[0]     # Double it
+	STORE r1,r0,r0[10]    # Store the result at address 10
+	HALT  r0,r0,r0
+

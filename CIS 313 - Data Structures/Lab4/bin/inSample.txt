@@ -1,0 +1,15 @@
+insert 10
+insert 5
+insert 20
+insert 3
+traverse
+insert 2
+traverse
+search 17
+insert 1
+//traverse //
+delete 20
+//delete 3
+traverse
+test
+exit

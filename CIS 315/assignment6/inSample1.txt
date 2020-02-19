@@ -1,8 +1,0 @@
- 6
-1900
-100 200 burrito
-200 350 taco
-400 500 chimi
-150 300 horchata
-500 650 torta
-300 400 cola

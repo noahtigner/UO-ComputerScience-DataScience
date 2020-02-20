@@ -1,0 +1,18 @@
+put 1 "https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg" "Taurus Mountains"
+sleep 1500
+put 1 "https://www.atlasandboots.com/wp-content/uploads/2019/05/feat-image-1-most-beautiful-mountains-in-the-world-820x312.jpg" "Pointy Mountain"
+sleep 1500
+put 1 "https://www.mercurynews.com/wp-content/uploads/2017/10/sjm-l-bachelor-1022-03.jpg?w=620" "Mount Bachelor"
+sleep 1500
+put 1 "https://www.oregonlive.com/resizer/K22ABUs9s4mBi5MyELeLFGvlgKI=/1280x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/KWXL2FSC4JF45CM4RIRHLQRLSM.JPG" "Almost Ski Season"
+sleep 1500
+put 1 "https://media-cdn.tripadvisor.com/media/photo-s/15/21/06/71/mount-shasta-2-70a.jpg" "Shasta"
+sleep 1500
+put 1 "https://static01.nyt.com/images/2019/09/18/sports/18everest-photo/18everest-photo-articleLarge.jpg?quality=75&auto=webp&disable=upscale" "Everest"
+sleep 1500
+put 1 "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/10/931/524/mount_fuji_istock.jpg?ve=1&tl=1" "Mount Fuji"
+sleep 1500
+put 1 "https://www.yosemite.com/wp-content/uploads/2016/04/El-Capitan-_Yosemite-Mariposa-Slide_-Photo-by-Chris-Migeon-700x425.jpg" "El Cap"
+sleep 1500
+put 3 "https://ichef.bbci.co.uk/news/660/cpsprodpb/C271/production/_98677794_gettyimages-486869012.jpg" "A goat"
+stop

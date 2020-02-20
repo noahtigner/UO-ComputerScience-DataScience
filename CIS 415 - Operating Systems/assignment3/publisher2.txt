@@ -1,0 +1,7 @@
+put 2 "https://www.newdoggy.com/wp-content/uploads/2019/04/nia-female-german-shepherd-puppy-for-sale-8-768x979.jpg" "German Shepherd"
+sleep 1000
+put 2 "https://www.thesprucepets.com/thmb/lf_bKsXU1WWVec7FkQTFI2FxBvc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/golden-retriever-sitting-down-in-a-farm-837898820-5c7854ff46e0fb00011bf29a.jpg" "Golden"
+sleep 1000
+put 2 "https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/747/assets/responsive/350000/350899/dog.jpg" "Good dog"
+sleep 5000
+stop

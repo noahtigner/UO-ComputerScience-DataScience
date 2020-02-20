@@ -1,0 +1,8 @@
+create topic 1 "Mountains" 10
+query topics
+add publisher "publisher.txt"
+query publishers
+add subscriber "subscriber.txt"
+query subscribers
+delta 1.0
+start

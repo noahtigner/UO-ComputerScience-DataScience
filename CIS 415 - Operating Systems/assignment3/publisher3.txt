@@ -1,0 +1,7 @@
+put 3 "https://ichef.bbci.co.uk/news/660/cpsprodpb/C271/production/_98677794_gettyimages-486869012.jpg" "A goat"
+sleep 1000
+put 3 "https://dbukjj6eu5tsf.cloudfront.net/sidearm.sites/uoregon.sidearmsports.com/images/2016/7/21/Mariota_Washington2014_EE.JPG" "Mariota, goat"
+sleep 2000
+put 3 "https://ichef.bbci.co.uk/news/976/cpsprodpb/AD4F/production/_109476344_dfc47980-6fae-46a3-923b-ff26a4d2d103.jpg" "Some goats"
+sleep 20000
+stop

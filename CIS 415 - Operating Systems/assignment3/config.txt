@@ -1,0 +1,14 @@
+create topic 1 "Mountains" 6
+create topic 2 "Dogs" 3
+create topic 3 "goats" 5
+query topics
+add publisher "publisher1.txt"
+add publisher "publisher2.txt"
+add publisher "publisher3.txt"
+query publishers
+delta 7.5
+add subscriber "subscriber1.txt"
+add subscriber "subscriber2.txt"
+add subscriber "subscriber3.txt"
+query subscribers
+start

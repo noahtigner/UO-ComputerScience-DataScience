@@ -1,0 +1,13 @@
+11
+insert 7
+insert 10
+insert 9
+print
+isEmpty
+insert 8
+maximum
+insert 21
+extractMax
+print
+extractMax
+build [1,2,3,4,5,6,7,88,99]

@@ -1,3 +1,6 @@
 [submodule "CIS 422 - Software Methodologies/ColdCallSoftware"]
 	path = CIS 422 - Software Methodologies/ColdCallSoftware
 	url = https://github.com/CIS422Group/Version2.0.git
+[submodule "CIS 422 - Software Methodologies/SiteStall"]
+	path = CIS 422 - Software Methodologies/SiteStall
+	url = https://github.com/SiteStall/SiteStall.git

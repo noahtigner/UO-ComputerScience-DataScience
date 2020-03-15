@@ -4,3 +4,6 @@
 [submodule "CIS 422 - Software Methodologies/SiteStall"]
 	path = CIS 422 - Software Methodologies/SiteStall
 	url = https://github.com/SiteStall/SiteStall.git
+[submodule "CIS 410 - Scientific Visualization/CIS 422 - Software Methodologies/SiteStallcd"]
+	path = CIS 410 - Scientific Visualization/CIS 422 - Software Methodologies/SiteStallcd
+	url = https://github.com/SiteStall/SiteStall.git

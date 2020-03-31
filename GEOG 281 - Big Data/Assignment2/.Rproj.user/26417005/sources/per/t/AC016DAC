@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580243581311.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AC016DAC",
+    "lastKnownWriteTime" : 140322738855648,
+    "last_content_update" : 1580243581311,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "32852376",
+        "caption" : "tweets.flu.df",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=tweets.flu.df&cache_key=32852376",
+        "displayedObservations" : "3443",
+        "environment" : "",
+        "expression" : "tweets.flu.df",
+        "object" : "tweets.flu.df",
+        "preview" : "0",
+        "totalObservations" : "3443",
+        "variables" : "16"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

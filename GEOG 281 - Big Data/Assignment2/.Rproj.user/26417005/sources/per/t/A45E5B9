@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580247488043.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1380110017",
+    "id" : "A45E5B9",
+    "lastKnownWriteTime" : 1580247736,
+    "last_content_update" : 1580247736373,
+    "path" : "~/Documents/My Documents/2019:2020/2. Winter/GEO281/Assignment2/Assignment 2_R Script_W202026.R",
+    "project_path" : "Assignment 2_R Script_W202026.R",
+    "properties" : {
+        "cursorPosition" : "129,16",
+        "scrollLine" : "113"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

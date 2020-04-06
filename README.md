@@ -15,4 +15,4 @@ A collection of work for Computer Science classes at the University of Oregon
 | [Operating Systems](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/CIS%20415%20-%20Operating%20Systems) | | | | <!--  -->
 | Principles of Programming Languages * | | | |<!--  -->
 
-* Anticipated Courses
+\* Anticipated Courses

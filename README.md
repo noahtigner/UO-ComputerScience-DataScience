@@ -1,5 +1,5 @@
 # UO-ComputerScience-DataScience
-A collection of work for Computer Science classes at the University of Oregon
+Relevant course work from my Undergraduate career at the University of Oregon
 
 | Computer Science Core    | Software Engineering     | Data Science             | Geographic Information Science |
 | ------------------------ | ------------------------ | ------------------------ | ------------------------ |

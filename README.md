@@ -14,3 +14,17 @@ A collection of work for Computer Science classes at the University of Oregon
 | C/C++/UNIX                       |                                  |                                  |
 | Operating Systems                |                                  |                                  |
 |                                  |                                  |                                  |
+
+
+<table>
+	<tr>
+		<th>Computer Science Core</th>
+		<th>Data Science</th>
+		<th>Geographic Information Systems</th>
+	</tr>
+	<tr>
+		<td>CS I</td>
+		<td> Intro DS</td>
+		<td>GIS I</td>
+	</tr>
+</table>

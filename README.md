@@ -12,6 +12,7 @@ Relevant course work from my Undergraduate career at the University of Oregon
 | [Computer Organization](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/CIS%20314%20-%20Computer%20Organization) | | Machine Learning* | | <!--  -->
 | [Algorithms](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/CIS%20315%20-%20Algorithms) | | | | <!--  -->
 | [C/C++/UNIX](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/CIS%20330%20-%20C%2C%20C%2B%2B%2C%20UNIX) | | | | <!--  -->
+| Linear Algebra | | | | <!--  -->
 | [Operating Systems](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/CIS%20415%20-%20Operating%20Systems) | | | | <!--  -->
 | Programming Languages* | | | |<!--  -->
 

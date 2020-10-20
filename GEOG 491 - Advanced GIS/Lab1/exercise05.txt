@@ -1,0 +1,18 @@
+1. 'my_clip.py', 'centroid.py'
+2. Intersect (Analysis) tool:
+    a. in_features, out_feature_class
+    b. {join_attributes}: ALL
+       {cluster_tolerance}: 
+       {output_type}: INPUT
+3. 'three.py'
+4. FeatureToLine:
+    a. in_features, out_feature_class
+    b. {cluster_tolerance}: 0.001
+       {attributes}: ATTRIBUTES
+5.  'five.py'
+6.  a. Tool parameters describe things such as tolerances, output file names, options, etc. 
+    b. Using a variable instead of harcoding values can help with code reuse (multiple function calls can share variable parameters)
+    c. When running geoprocessing tools in ArcMap, arcpy comes pre-imported.
+    d. arcpy.Exists() -> bool
+    e. Result objects return geoprocessing messages (String)
+    f. Polygon: sequence of coordinate pairs, polyline: series of connected segments, and Raster: var that references a raster dataset

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Parks and Recreation Department</origin>
+				<pubdate>20101015</pubdate>
+				<pubtime>Unknown</pubtime>
+				<title Sync="TRUE">BOUNDARIES.city_of_austin_parks</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE">Server=ctmgissdel.ci.austin.tx.us; Service=sde:oracle11g:\;local=gistest1; User=boundaries; Version=SDE.DEFAULT</onlink>
+				<ftname Sync="TRUE">BOUNDARIES.city_of_austin_parks</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This GIS feature class includes PARD Parkland boundaries within the City of Austin and surrounding areas.</abstract>
+			<purpose>This data is used to serve other city departments and public entities for general references in map production, planning, and analysis.</purpose>
+			<supplinf>This file was created and modified in ArcMap.  Boundaries were constructed from various sources: property boundaries (TCAD and base poly); deed info from real estate; natural boundaries; easements</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>20090616</begdate>
+					<begtime>unknown</begtime>
+					<enddate>20101004</enddate>
+					<endtime>unknown</endtime>
+				</rngdates>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-97.916909</westbc>
+				<eastbc Sync="TRUE">-97.566217</eastbc>
+				<northbc Sync="TRUE">30.519748</northbc>
+				<southbc Sync="TRUE">30.128104</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">3060414.510114</leftbc><rightbc Sync="TRUE">3167828.500010</rightbc><bottombc Sync="TRUE">10021121.749968</bottombc><topbc Sync="TRUE">10161094.720022</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>Parks</themekey>
+				<themekey>Parkland</themekey>
+				<themekey>Park Boundaries</themekey>
+				<themekey>District Parks</themekey>
+				<themekey>Metro Parks</themekey>
+				<themekey>Nature Preserves</themekey>
+				<themekey>Neighborhood Parks</themekey>
+				<themekey>Planting Stips/Triangles</themekey>
+				<themekey>Pocket Parks</themekey>
+				<themekey>School Parks</themekey>
+				<themekey>Special Parks</themekey><themekey>Boundaries</themekey></theme>
+			<place>
+				<placekey>City of Austin</placekey>
+				<placekey>Austin</placekey>
+				<placekey>Texas</placekey>
+				<placekey>Travis County</placekey>
+				<placekey>TX</placekey>
+				<placekey>Williamson County</placekey>
+				<placekey>City of Pflugerville</placekey></place>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>No warranty is made by the city regarding its accuracy or completeness.  This data should not be construed as legally binding.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Allison Hardy</cntper>
+					<cntorg>City of Austin:Parks and Recreation Dept.</cntorg>
+				</cntperp>
+				<cntpos>GIS Technician</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>919 W 28th Half St.</address>
+					<city>Austin</city>
+					<state>Texas</state>
+					<postal>78705</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>512-974-9459</cntvoice>
+				<cntemail>allison.hardy@ci.austin.tx.us</cntemail>
+				<hours>8am-5pm</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>This data was developed for the City of Austin by Allison Hardy</datacred>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3, v.5973; ESRI ArcCatalog 9.3.1.4000</native>
+		<natvform Sync="TRUE">SDE Feature Class</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>These attributes were collected from deed information, addresses, and park planner colleague input.</attraccr>
+		</attracc>
+		<logic>All values and conditions have been checked and QAQC has been performed.</logic>
+		<posacc>
+			<horizpa>
+				<horizpar>Double checked against basepoly and TCAD boundaries</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>1)Get deed information from Real Estate
+2)Reference TCAD and basepoly for digitizing boundaries
+3)Fill in necessary attribute information</procdesc>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Allison Hardy</cntper>
+							<cntorg>City of Austin:Parks and Recreation Dept</cntorg>
+						</cntperp>
+						<cntpos>GIS Technician</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>919 W 28th Half St.</address>
+							<city>Austin</city>
+							<state>Texas</state>
+							<postal>78705</postal>
+							<country>United States</country>
+						</cntaddr>
+						<cntvoice>512-974-9459</cntvoice>
+						<cntemail>allison.hardy@ci.austin.tx.us</cntemail>
+						<hours>8am - 5pm</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\hardya\LOCALS~1\Temp\xml1B4.tmp</srcused>
+				<procdate>20080916</procdate>
+				<proctime>11115300</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\hardya\LOCALS~1\Temp\xml1D1.tmp</srcused>
+				<procdate>20080916</procdate>
+				<proctime>11261300</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\hardya\LOCALS~1\Temp\xml1FB.tmp</srcused>
+				<procdate>20080916</procdate>
+				<proctime>11585900</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>L:\PARD.gdb\Basketball_Courts.xml</srcused>
+				<procdate>20081001</procdate>
+				<proctime>17005100</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>L:\metadata.xml</srcused>
+				<procdate>20081009</procdate>
+				<proctime>13052000</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>L:\PARD.gdb\Ballfields.xml</srcused>
+				<procdate>20090626</procdate>
+				<proctime>10572800</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>L:\PARD.gdb\pard_ballfields.xml</srcused>
+				<procdate>20100929</procdate>
+				<proctime>09533900</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>L:\PARD.gdb\pard_mutt_mitts.xml</srcused>
+				<procdate>20100929</procdate>
+				<proctime>10134600</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>L:\PARD.gdb\pard_overlooks.xml</srcused>
+				<procdate>20101011</procdate>
+				<proctime>12030400</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>L:\PARD.gdb\pard_pavilions.xml</srcused>
+				<procdate>20101011</procdate>
+				<proctime>14073800</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>L:\PARD.gdb\pard_picnic_tables.xml</srcused>
+				<procdate>20101011</procdate>
+				<proctime>14380200</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>L:\PARD.gdb\pard_playscapes.xml</srcused>
+				<procdate>20101011</procdate>
+				<proctime>15131200</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>L:\PARD.gdb\pard_pools.xml</srcused>
+				<procdate>20101011</procdate>
+				<proctime>15405600</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>L:\PARD.gdb\pard_restrooms.xml</srcused>
+				<procdate>20101014</procdate>
+				<proctime>10523600</proctime>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">L:\PARD.gdb\pard_trails.xml</srcused><procdate Sync="TRUE">20101015</procdate><proctime Sync="TRUE">10104600</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=ctmgissdep.ci.austin.tx.us; Service=sde:oracle11g:/;local=gismaint; User=PARD_ADMIN; Version=SDE.DEFAULT</srcused><procdate Sync="TRUE">20101201</procdate><proctime Sync="TRUE">12392000</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="city_of_austin_parks"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">4</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000328</absres>
+						<ordres Sync="TRUE">0.000328</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Texas_Central_FIPS_4203_Feet</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">1.000000</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="city_of_austin_parks">
+			<enttyp>
+				<enttypl Sync="TRUE">city_of_austin_parks</enttypl>
+				<enttypd>PARD Parkland Boundaries</enttypd>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<begdatea>20090616</begdatea>
+				<enddatea>20101004</enddatea>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Park_Name</attrlabl>
+				<attrdef>Official Names for Parkland</attrdef>
+				<attrdomv>
+					<udom>Official Names of Parks</udom>
+				</attrdomv>
+				<begdatea>20090616</begdatea>
+				<enddatea>20101004</enddatea>
+				<attalias Sync="TRUE">PARK_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Park_ID</attrlabl>
+				<attrdef>Primary ID number that is linked to an Access database.</attrdef>
+				<attrdomv>
+					<udom>Park ID numbers</udom>
+				</attrdomv>
+				<begdatea>20090616</begdatea>
+				<enddatea>20101004</enddatea>
+				<attalias Sync="TRUE">PARK_ID</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">PARK_TYPE</attrlabl><attalias Sync="TRUE">PARK_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Type of Park</attrdef><begdatea>20090616</begdatea><enddatea>20101004</enddatea><attrdomv><edom><edomv>District</edomv><edomvd>District Parks range from 31 to 200 acres in size and are usually located on minor arterial roadways.</edomvd></edom><edom><edomv>Neighborhood</edomv><edomvd>Neighborhood parks usually range from 2 to 30 acres and close enough to residents to allow access by foot or bicycle.</edomvd></edom><edom><edomv>School</edomv><edomvd>School parks are typically located on elementary school properties in which the City of Austin has a limited partnership.</edomvd></edom><edom><edomv>Metro</edomv><edomvd>Metro parks are typically 200+ acres in size and preferably located on major waterways and roadways</edomvd></edom><edom><edomv>Special</edomv><edomvd>Special Parks serve a specific function or protect a special feature</edomvd></edom><edom><edomv>Pocket</edomv><edomvd>Pocket parks offer greenspace in locations where public green is limited or not served by another park.  They are typically within high density areas.</edomvd></edom><edom><edomv>Nature Preserve</edomv><edomvd>Nature Preserves are geneally categorized as special parks.</edomvd></edom><edom><edomv>Planting Strips/Triangles</edomv><edomvd>Planting Strips/Triangles are parkland that is not used for recreational purposes.  They are usually located in or around the Right-of-Way and are used for landscaping.</edomvd></edom><edom><edomv>Greenbelt</edomv><edomvd>Greenbelts are linear parkland located on waterways (riparian corridors) and </edomvd></edom></attrdomv></attr><attr><attrlabl Sync="TRUE">PARK_ADDRE</attrlabl><attalias Sync="TRUE">PARK_ADDRE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PARK_STATU</attrlabl><attalias Sync="TRUE">PARK_STATU</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SERVICE_LE</attrlabl><attalias Sync="TRUE">SERVICE_LE</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">5</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">POLYGON_PA</attrlabl><attalias Sync="TRUE">POLYGON_PA</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">5</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ACRES</attrlabl><attalias Sync="TRUE">ACRES</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">8</attscale><attrdef>Acres of parkland</attrdef><begdatea>20090616</begdatea><enddatea>20101004</enddatea><attrdomv><udom>Parkland Acres based on GIS calculations</udom></attrdomv></attr><attr>
+				<attrlabl>CREATED_BY</attrlabl>
+				<attrdef>The person who digitized the parks</attrdef>
+				<attrdomv>
+					<udom>GPS person</udom>
+				</attrdomv>
+				<begdatea>20090616</begdatea>
+				<enddatea>20101004</enddatea>
+				<attalias Sync="TRUE">CREATED_BY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">CREATED_DA</attrlabl><attalias Sync="TRUE">CREATED_DA</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MODIFIED_B</attrlabl><attalias Sync="TRUE">MODIFIED_B</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MODIFIED_D</attrlabl><attalias Sync="TRUE">MODIFIED_D</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE_AREA</attrlabl><attalias Sync="TRUE">SHAPE_AREA</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SHAPE_LEN</attrlabl><attalias Sync="TRUE">SHAPE_LEN</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+		<overview>
+			<dsoverv>This database includes PARD parkland boudaries withing the City of Austin and surrounding areas.</dsoverv></overview>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>No warranty is made by the city regarding its accuracy or completeness.  This data should not be construed as legally binding.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.721</transize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20110207</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Allison Hardy</cntper>
+					<cntorg>City of Austin Parks and Recreation Department</cntorg>
+				</cntperp>
+				<cntpos>GIS Technician</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>200 S Lamar Blvd.</address>
+					<city>Austin</city>
+					<state>Texas</state>
+					<postal>78704</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>(512) 974-6762</cntvoice>
+				<cntemail>allison.hardy@ci.austin.tx.us</cntemail>
+				<hours>9:00 - 5:00</hours>
+				<cntinst>Email is better</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta></metainfo>
+	<Esri><CreaDate>20110802</CreaDate><CreaTime>14294000</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20110503</SyncDate><SyncTime>12220500</SyncTime><ModDate>20110503</ModDate><ModTime>12220500</ModTime><DataProperties><itemProps><itemName Sync="TRUE">city_of_austin_parks</itemName><imsContentType Sync="TRUE">002</imsContentType><nativeExtBox><westBL Sync="TRUE">3060414.510114</westBL><eastBL Sync="TRUE">3167828.500010</eastBL><southBL Sync="TRUE">10021121.749968</southBL><northBL Sync="TRUE">10161094.720022</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemLocation><linkage Sync="TRUE">file://\\ZANDBERGEN_DELL\C$\Dropbox\Dropbox\Python\pythonbook\exercise11\parks</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><itemSize Sync="TRUE">0.000</itemSize></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Texas_Central_FIPS_4203_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_Texas_Central_FIPS_4203_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,2296583.333333333],PARAMETER[&amp;quot;False_Northing&amp;quot;,9842500.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-100.3333333333333],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,30.11666666666667],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,31.88333333333333],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,29.66666666666667],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2277]]&lt;/WKT&gt;&lt;XOrigin&gt;-124805500&lt;/XOrigin&gt;&lt;YOrigin&gt;-81923100&lt;/YOrigin&gt;&lt;XYScale&gt;35432942.484959878&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333335&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;2277&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20110315" Time="151332">CopyFeatures "Database Connections\test1_location.sde\BOUNDARIES.city_of_austin_parks" "Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks" # 0 0 0</Process><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\ChangePrivileges" Date="20110317" Time="095644">ChangePrivileges 'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_ballfields';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_barbecue_pits';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_basketball_courts';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_benches';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_buildings';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_campsites';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_drinking_fountains';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_emergency_access';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_fitness_stations';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_gazebos';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_golf_fairways';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_golf_features';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_golf_links';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_multipurpose_fields';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_mutt_mitts';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_overlooks';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_parking_lots';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_pavilions';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_picnic_tables';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_playscapes';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_pools';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_recreation_centers';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_restrooms';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_signs';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_skatepark_bmx';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_soccer_fields';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_special_features';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_swings';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_tennis_courts';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_volleyball_courts';'Database Connections\GISDM-Structure.sde\STRUCTURE.pard_water_access_features';'Database Connections\GISDM-PlanningCadastre.sde\PLANNINGCADASTRE.pard_planning_areas';'Database Connections\GISDM-PlanningCadastre.sde\PLANNINGCADASTRE.pard_service_districts';'Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks';'Database Connections\GISDM-Boundaries.sde\BOUNDARIES.dog_offleash_boundaries';'Database Connections\GISDM-PlanningCadastre.sde\PLANNINGCADASTRE.overlay_waterfront_setbacks' gis_view_rl GRANT #</Process><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20110503" Time="122205">FeatureClassToFeatureClass "Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks" C:\1g_drive\ftpNEW city_of_austin_parks.shp # "PARK_ID "PARK_ID" true true false 4 Long 0 10 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,PARK_ID,-1,-1;PARK_NAME "PARK_NAME" true true false 100 Text 0 0 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,PARK_NAME,-1,-1;PARK_TYPE "PARK_TYPE" true true false 30 Text 0 0 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,PARK_TYPE,-1,-1;PARK_ADDRE "PARK_ADDRE" true true false 100 Text 0 0 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,PARK_ADDRESS,-1,-1;PARK_STATU "PARK_STATU" true true false 30 Text 0 0 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,PARK_STATUS,-1,-1;SERVICE_LE "SERVICE_LE" true true false 2 Short 0 5 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,SERVICE_LEVEL,-1,-1;POLYGON_PA "POLYGON_PA" true true false 2 Short 0 5 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,POLYGON_PARTS,-1,-1;ACRES "ACRES" true true false 8 Double 8 38 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,ACRES,-1,-1;CREATED_BY "CREATED_BY" true true false 10 Text 0 0 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,CREATED_BY,-1,-1;CREATED_DA "CREATED_DA" true true false 36 Date 0 0 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,CREATED_DATE,-1,-1;MODIFIED_B "MODIFIED_B" true true false 10 Text 0 0 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,MODIFIED_BY,-1,-1;MODIFIED_D "MODIFIED_D" true true false 36 Date 0 0 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,MODIFIED_DATE,-1,-1;SHAPE_AREA "SHAPE_AREA" false false true 0 Double 0 0 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,SHAPE.AREA,-1,-1;SHAPE_LEN "SHAPE_LEN" false false true 0 Double 0 0 ,First,#,Database Connections\GISDM-Boundaries.sde\BOUNDARIES.city_of_austin_parks,SHAPE.LEN,-1,-1" #</Process></lineage><copyHistory><copy source="C:\Dropbox\Dropbox\Python\Data_Cleaned\Austin\parks" dest="\\ZANDBERGEN_DELL\C$\Dropbox\Dropbox\Python\pythonbook\exercise11\parks" date="20110802" time="14294000"></copy></copyHistory></DataProperties><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>North American Profile of ISO19115 2003</ArcGISstyle></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.0.2414</envirDesc><dataLang><languageCode Sync="TRUE" value="en" country="US"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">city_of_austin_parks</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="search"><westBL Sync="TRUE">-97.916909</westBL><eastBL Sync="TRUE">-97.566217</eastBL><northBL Sync="TRUE">30.519748</northBL><southBL Sync="TRUE">30.128104</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-97.916909</westBL><eastBL Sync="TRUE">-97.566217</eastBL><northBL Sync="TRUE">30.519748</northBL><southBL Sync="TRUE">30.128104</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><descKeys><thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66"></thesaName><keyword Sync="TRUE">002</keyword></descKeys></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="006"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">Server=ctmgissdel.ci.austin.tx.us; Service=sde:oracle11g:\;local=gistest1; User=boundaries; Version=SDE.DEFAULT</linkage><protocol Sync="TRUE">ArcSDE Connection</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">SDE Feature Class</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="2277">NAD_1983_StatePlane_Texas_Central_FIPS_4203_Feet</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">7.4.1</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="BOUNDARIES.city_of_austin_parks"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="002"></GeoObjTypCd><geoObjCnt Sync="TRUE">0</geoObjCnt></geoObjTyp><geoObjCnt Sync="TRUE">262</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20110503</mdDateSt></metadata>

@@ -10,7 +10,7 @@ Relevant course work from my Undergraduate career at the University of Oregon
 | Discrete Math II | | [Spatial Analysis](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/GEOG%20494%20-%20Spatial%20Analysis) | Digital Earth* | <!--  -->
 | [Data Structures](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/CIS%20313%20-%20Data%20Structures) | | [Scientific Visualization](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/CIS%20410%20-%20Scientific%20Visualization) | | | <!--  -->
 | [Computer Organization](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/CIS%20314%20-%20Computer%20Organization) | | [Artificial Intelligence](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/CIS%20471%20-%20Artificial%20Intelligence) | | <!--  -->
-| [Algorithms](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/CIS%20315%20-%20Algorithms) | | Machine Learning* | | <!--  -->
+| [Algorithms](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/CIS%20315%20-%20Algorithms) | | | | <!--  -->
 | [C/C++/UNIX](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/CIS%20330%20-%20C%2C%20C%2B%2B%2C%20UNIX) | | | | <!--  -->
 | Linear Algebra | | | | <!--  -->
 | [Operating Systems](https://github.com/noahtigner/UO-ComputerScience-DataScience/tree/master/CIS%20415%20-%20Operating%20Systems) | | | | <!--  -->

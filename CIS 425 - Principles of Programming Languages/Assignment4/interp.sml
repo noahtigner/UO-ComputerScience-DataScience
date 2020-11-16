@@ -73,9 +73,10 @@ fun interp_dynamic(env, e) = case (env, e) of
 |   (env, AST_APP(f, p))                    => (case (interp_dynamic(env, f), interp_dynamic(env, p)) of        (* Rule 11 *)
         (RES_SUCC, RES_NUM n)                   => RES_NUM (n+1)                                                (* Rule 6 *)
     |   (RES_PRED, RES_NUM n)                   => if(n<=1) then RES_NUM 0 else RES_NUM (n-1)                   (* Rule 7 *)
-    |   (RES_FUN(formal, body), actual)         => interp_dynamic(Env (update env formal actual), body)                         
+    |   (RES_FUN(formal, body), actual)         => interp_dynamic(Env (update env formal actual), body)          
+    |   (RES_ISZERO, RES_NUM n)                 => RES_BOOL (n = 0)                                             (* Rule 8 *)               
     |   _                                       => raise Error "Incorrect term in function application")
-|   (env, AST_LET(x, e1, e2))               => interp_dynamic(Env (update env x (interp_dynamic(env, e1))), e)  (* Rule 12 *)
+|   (env, AST_LET(x, e1, e2))               => interp_dynamic(Env (update env x (interp_dynamic(env, e1))), e2) (* Rule 12 *)
 |   _                                       => raise Error "Invalid AST";
 
 (* Static Interpreter *)
@@ -86,7 +87,7 @@ fun interp_static(env, e) = case (env, e) of
 |   (env, AST_BOOL b)                       => RES_BOOL b                                                       (* Rule 2 *)
 |   (env, AST_SUCC)                         => RES_SUCC                                                         (* Rule 3 *)
 |   (env, AST_PRED)                         => RES_PRED                                                         (* Rule 3 *)
-|   (env, AST_ISZERO)                       => RES_ISZERO                                                       (* Rule 8 *)
+|   (env, AST_ISZERO)                       => RES_ISZERO                                                       (* Rule 3 *)
 |   (env, AST_IF(b, e1, e2))                => (case interp_static(env, b) of                                   (* Rule 4/5 *)
         RES_BOOL true                           => interp_static(env, e1) (* then *)
     |   RES_BOOL false                          => interp_static(env, e2) (* else *)
@@ -99,9 +100,10 @@ fun interp_static(env, e) = case (env, e) of
 |   (env, AST_APP(f, p))                    => (case (interp_static(env, f), interp_static(env, p)) of          (* Rule 11a *)
         (RES_SUCC, RES_NUM n)                   => RES_NUM (n+1)                                                (* Rule 6 *)
     |   (RES_PRED, RES_NUM n)                   => if(n<=1) then RES_NUM 0 else RES_NUM (n-1)                   (* Rule 7 *)
-    |   (RES_CLOSURE(formal, body, env1), actual)         => interp_static(Env (update env1 formal actual), body)                         
+    |   (RES_CLOSURE(formal, body, env1), actual)         => interp_static(Env (update env1 formal actual), body)        
+    |   (RES_ISZERO, RES_NUM n)                 => RES_BOOL (n = 0)                                             (* Rule 8 *)
     |   _                                       => raise Error "Incorrect term in function application")
-|   (env, AST_LET(x, e1, e2))               => interp_static(Env (update env x (interp_static(env, e1))), e)    (* Rule 12 *)
+|   (env, AST_LET(x, e1, e2))               => interp_static(Env (update env x (interp_static(env, e1))), e2)   (* Rule 12 *)
 |   _                                       => raise Error "Invalid AST";
 
  
